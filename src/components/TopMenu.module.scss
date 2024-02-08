@@ -1,0 +1,15 @@
+@import "../variables.scss";
+
+.topMenu {
+  display: flex;
+  justify-content: center;
+  font-size: 2.2rem;
+  font-weight: 600;
+  gap: 4rem;
+  margin-bottom: 3rem;
+  color: $blue-color;
+
+  &__item {
+    cursor: pointer;
+  }
+}

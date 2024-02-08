@@ -1,0 +1,58 @@
+@import ".././variables.scss";
+
+.mainContainer {
+  position: absolute;
+  top: 3rem;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 2rem;
+  color: $blue-color;
+  max-width: 50%;
+  width: 100%;
+}
+
+.username {
+  font-size: 2.5rem;
+  align-self: center;
+  margin-bottom: 3rem;
+  color: $grey-dark-color;
+}
+
+.content {
+  padding: 2rem;
+  background-color: $grey-light-color;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+
+.post {
+  background-color: rgb(231, 238, 237);
+  padding: 1.5rem;
+  margin: 1rem 0;
+  border-radius: 10px;
+  box-shadow: 2px 3px 3px rgba($color: #000000, $alpha: 0.3);
+  color: $grey-dark-color;
+  cursor: pointer;
+
+  &__header {
+    font-size: 2rem;
+    margin: 0.5rem 0;
+    border-bottom: 2px solid $grey-light-color;
+  }
+
+  &__userName {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    color: $red-color;
+  }
+
+  &__text {
+    font-size: 1.6rem;
+  }
+}
+
+.greyColor {
+  color: $grey-dark-color;
+}

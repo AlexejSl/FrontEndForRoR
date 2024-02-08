@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Rubik:ital,wght@0,300;0,400;0,600;1,300&display=swap");
+@import "./variables.scss";
+
+:root  {
+  font-family: "Rubik", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  background-color: $background-color;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  color: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  background-color: var(--color-grey-light-1);
+  font-size: 62.5%; // 1rem = 10px, 10px/16px = 62.5%
+}
+
+button {
+  cursor: pointer;
+}
