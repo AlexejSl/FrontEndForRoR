@@ -12,6 +12,9 @@ function TopMenu() {
       <p className={styles.topMenu__item} onClick={() => navigate("/users")}>
         Users
       </p>
+      <p className={styles.topMenu__item} onClick={() => navigate("/statistics")}>
+        Statistics
+      </p>
       <p className={styles.topMenu__item} onClick={() => navigate("/addPost")}>
         Add new post
       </p>

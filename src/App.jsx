@@ -4,6 +4,7 @@ import PostScreen from "./screens/PostScreen";
 import AddPostScreen from "./screens/AddPostScreen";
 import Users from "./screens/Users";
 import UsersPosts from "./screens/UsersPosts";
+import Statistics from "./screens/Statistics";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route element={<MainScreen />} path="/" />
         <Route element={<PostScreen />} path="/post/:postId" />
         <Route element={<Users />} path="/users" />
+        <Route element={<Statistics />} path="/statistics" />
         <Route element={<UsersPosts />} path="/users/:name" />
         <Route element={<AddPostScreen />} path="/addPost" />
       </Routes>
